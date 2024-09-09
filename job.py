@@ -27,6 +27,8 @@ with DAG(
     sleep = BashOperator(task_id = 'sleep', bash_command= 'sleep 2')
 
     task2 = PythonOperator(task_id = 'task2', python_callable= task2_function)
+
+    task3 = BashOperator (task_id = 'task3', bash_command= 'echo "Batch 1 is finished."')
     
   
 
