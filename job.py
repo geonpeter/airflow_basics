@@ -10,8 +10,8 @@ def task2_function():
     print('Task2 completed.')
 
 default_args = {
-    'owner' : 'air0',
-    'start_date' : datetime(2029,09,09),
+    'owner' : 'geonpeter',
+    'start_date' : datetime(2024, 9, 9),
     'retries' : 1,
     'retry_delay' : timedelta(minutes=2)
 }
