@@ -32,4 +32,4 @@ with DAG(
     
   
 
-    task1 >> sleep >> task2
+    task1 >> sleep >> task2 >> task3
